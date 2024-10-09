@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Inter;
+    src: url(material/Inter.ttf);
+}
+
+body {
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+
+header {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    gap: 15px;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#logo {
+    max-width: 120px;
+}
+
+#meny {
+    display: flex;
+    gap: 15px;
+}
+
+#request {
+    padding-right: 15px;
+    border-right: 1px solid #f4f4f4;
+}
+
+#login-lank {
+    padding: 0px 15px 0px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.barky-knapp {
+    color: #f4f4f4;
+    background-color: #050505;
+    padding: 10px;
+    border-radius: 5px;
+}
