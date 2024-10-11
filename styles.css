@@ -97,3 +97,19 @@ h1 {
     object-fit: contain;
     width: 100%;
 }
+
+.sektion-2 {
+    margin-top: 100px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.loggor {
+    max-width: 100px;
+}
