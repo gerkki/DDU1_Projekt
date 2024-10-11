@@ -114,7 +114,7 @@ h1 {
     max-width: 100px;
 }
 
-#sektion-3 {
+.sektion-3-4-5 {
     margin-top: 80px;
 }
 
@@ -169,4 +169,8 @@ h2 {
     margin-top: 2px;
     color: #999999;
     font-weight: 320;
+}
+
+#citat-2 {
+    text-align: left;
 }
