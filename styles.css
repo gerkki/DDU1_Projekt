@@ -189,20 +189,20 @@ h2 {
     margin-bottom: 80px;
 }
 
-#prenumeration-intro {
+.prenumeration-intro {
     margin-top: 100px;
     margin-bottom: 80px;
     text-align: center;
 }
 
-#prenumeration-ingress {
+.prenumeration-ingress {
     margin-top: 0px;
     margin-bottom: 25px;
     color: #999999;
     font-size: 15px;
 }
 
-#prenumeration-rubrik {
+.prenumeration-rubrik {
     margin-bottom: 10px;
 }
 
@@ -247,14 +247,7 @@ h3 {
 #tre-kolumn-container {
     display: flex;
     text-align: center;
-    gap: 20px;
 }
-
-#product-border {
-    border-left: 1px solid #e5e5e5;
-    border-right: 1px solid #e5e5e5;
-}
-
 
 .learn-more {
     text-decoration: underline;
@@ -280,10 +273,22 @@ h3 {
 }
 
 .procent-wrapper {
+    padding-top: 25px;
     text-align: center;
     display: flex;
 }
 
 .procent-box {
     flex: 1;
+    border-right: 1px solid #e5e5e5;
+}
+
+#sista-procent-boxen,
+#design-boxen {
+    border-right: none;
+}
+
+.procent-rubrik {
+    color: #666666;
+    font-size: 45px;
 }
