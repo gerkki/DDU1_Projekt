@@ -7,6 +7,7 @@ body {
     font-family: Inter;
     font-size: 14px;
     margin-top: 0px;
+    color: #050505
 }
 
 header {
@@ -93,7 +94,7 @@ h1 {
     font-size: 18px;
 }
 
-#team-img {
+.team-img {
     object-fit: contain;
     width: 100%;
 }
@@ -228,4 +229,61 @@ h2 {
 
 #sista-featuren {
     border: none !important;
+}
+
+#sektion-7 {
+    padding-top: 50px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h3 {
+    color
+}
+
+#tre-kolumn-container {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+#product-border {
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+
+.learn-more {
+    text-decoration: underline;
+    padding: 0px;
+}
+
+.learn-more:hover {
+    color: #087fe7;
+}
+
+#sektion-8 {
+    margin-top: 100px;
+}
+
+.badges-wrapper {
+    display: flex;
+    gap: 80px;
+}
+
+#badges-img,
+#badges-text {
+    flex: 1;
+}
+
+.procent-wrapper {
+    text-align: center;
+    display: flex;
+}
+
+.procent-box {
+    flex: 1;
 }
