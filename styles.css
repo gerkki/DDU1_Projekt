@@ -306,6 +306,8 @@ footer {
 #footer-container {
     max-width: 1200px;
     margin: 80px auto 80px auto;
+    display: flex;
+    gap: 25px;
 }
 
 #barky-footer-logo {
@@ -314,5 +316,29 @@ footer {
 
 .loggor-footer {
     max-width: 20px;
-    margin: 25px 10px auto auto;
+    margin: 25px 10px 50px auto;
+}
+
+.footer-lankar {
+    display: block;
+    padding-left: 0px;
+    color: #666666;
+    font-weight: 350;
+}
+
+.footer-lankar:hover {
+    text-decoration: underline;
+}
+
+.footer-kolumn {
+    flex: 1;
+}
+
+.footer-kolumn-1 {
+    flex: 1.5;
+}
+
+.rubrik-footer {
+    font-weight: 550;
+    margin-top: 0px;
 }
