@@ -7,7 +7,7 @@ body {
     font-family: Inter;
     font-size: 14px;
     margin-top: 0px;
-    color: #050505
+    color: #050505;
 }
 
 header {
@@ -17,10 +17,9 @@ header {
     padding: 10px 0px 10px 0px;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    left: 10px;
+    right: 10px;
     background-color: white;
-    margin: auto 10px auto 10px;
 }
 
 #nav-container {
@@ -92,6 +91,7 @@ h1 {
     padding: 15px 0pc 23px 0px;
     color: #999999;
     font-size: 18px;
+    font-weight: 320;
 }
 
 .team-img {
@@ -241,7 +241,8 @@ h2 {
 }
 
 h3 {
-    color
+    color: #050505;
+    font-size: 24px;
 }
 
 #tre-kolumn-container {
@@ -259,7 +260,7 @@ h3 {
 }
 
 #sektion-8 {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .badges-wrapper {
@@ -273,7 +274,7 @@ h3 {
 }
 
 .procent-wrapper {
-    padding-top: 25px;
+    padding-top: 50px;
     text-align: center;
     display: flex;
 }
@@ -281,6 +282,9 @@ h3 {
 .procent-box {
     flex: 1;
     border-right: 1px solid #e5e5e5;
+    color: #999999;
+    font-size: 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 #sista-procent-boxen,
@@ -291,4 +295,5 @@ h3 {
 .procent-rubrik {
     color: #666666;
     font-size: 45px;
+    margin: 0px;
 }
