@@ -6,7 +6,7 @@
 body {
     font-family: Inter;
     font-size: 14px;
-    margin-top: 0px;
+    margin: 0px;
     color: #050505;
 }
 
@@ -296,4 +296,23 @@ h3 {
     color: #666666;
     font-size: 45px;
     margin: 0px;
+}
+
+footer {
+    border-top: 1px solid #e5e5e5;
+    margin: 0px 10px 0px 10px;
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 80px auto 80px auto;
+}
+
+#barky-footer-logo {
+    max-width: 150px;
+}
+
+.loggor-footer {
+    max-width: 20px;
+    margin: 25px 10px auto auto;
 }
