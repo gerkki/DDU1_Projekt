@@ -54,7 +54,8 @@ a {
     padding: 8px;
 }
 
-.lank-hover a:hover {
+.lank-hover a:hover,
+#hamburger:hover {
     background-color: #f4f4f4;
     padding: 8px;
     border-radius: 5px;
@@ -341,4 +342,61 @@ footer {
 .rubrik-footer {
     font-weight: 550;
     margin-top: 0px;
+}
+
+#hamburger {
+    width: 18px;
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    #meny,
+    #login-meny {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #nav-container {
+        justify-content: right;
+    }
+
+    header {
+        position: relative;
+        border-bottom: none;
+        max-width: 90%;
+    }
+
+    main {
+        max-width: 90%;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #sektion-1 {
+        flex-direction: column-reverse;
+    }
+
+    .usp-container {
+        width: 100%;
+    }
+
+    #tre-kolumn-container {
+        flex-direction: column;
+    }
+
+    .procent-box {
+        border-right: none;
+    }
+
+    .procent-wrapper {
+        flex-direction: column;
+    }
+
+    #footer-container {
+        flex-direction: column;
+    }
 }
