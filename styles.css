@@ -20,6 +20,7 @@ header {
     left: 10px;
     right: 10px;
     background-color: white;
+    font-size: 13px;
 }
 
 #nav-container {
@@ -63,7 +64,7 @@ a {
 
 .barky-knapp {
     color: #f4f4f4;
-    background-color: #050505;
+    background-color: #121212;
     padding: 8px;
     border-radius: 5px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -89,7 +90,7 @@ h1 {
 }
 
 .ingress {
-    padding: 15px 0pc 23px 0px;
+    padding: 15px 0px 23px 0px;
     color: #999999;
     font-size: 18px;
     font-weight: 320;
@@ -113,7 +114,7 @@ h1 {
 }
 
 .loggor {
-    max-width: 100px;
+    height: 25px;
 }
 
 .sektion-3-4-5 {
@@ -123,6 +124,7 @@ h1 {
 h2 {
     color: #050505;
     font-size: 36px;
+    margin-bottom: 0px;
 }
 
 .usp-container {
@@ -149,6 +151,7 @@ h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 25px;
+    font-weight: 550;
 }
 
 .referens {
@@ -258,6 +261,7 @@ h3 {
 
 .learn-more:hover {
     color: #087fe7;
+    text-decoration-color: #050505;
 }
 
 #sektion-8 {
@@ -267,6 +271,7 @@ h3 {
 .badges-wrapper {
     display: flex;
     gap: 80px;
+    margin-top: 40px;
 }
 
 #badges-img,
@@ -321,11 +326,16 @@ footer {
     margin: 25px 10px 50px auto;
 }
 
+#copyright-text {
+    font-size: 12px;
+}
+
 .footer-lankar {
     display: block;
     padding-left: 0px;
     color: #666666;
-    font-weight: 350;
+    font-weight: 320;
+    font-size: 13.5px;
 }
 
 .footer-lankar:hover {
@@ -358,12 +368,14 @@ footer {
     }
 
     header {
-        position: relative;
+        position: static;
         border-bottom: none;
         max-width: 90%;
+        margin: auto;
     }
 
-    main {
+    main,
+    #citat-2 {
         max-width: 90%;
         margin-top: 50px;
         text-align: center;
@@ -373,28 +385,50 @@ footer {
         flex-direction: column-reverse;
     }
 
+    #sektion-2 {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .citat {
+        font-size: 24px;
+    }
+
+    .referens,
+    #badges-text {
+        text-align: left;
+    }
+
     .usp-container {
         width: 100%;
     }
 
-    #tre-kolumn-container {
+    #tre-kolumn-container,
+    .procent-wrapper,
+    .badges-wrapper {
         flex-direction: column;
+    }
+
+    .badges-wrapper {
+        gap: 20px;
     }
 
     .procent-box {
         border-right: none;
     }
 
-    .procent-wrapper {
-        flex-direction: column;
-    }
-
     #footer-container {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
     }
 
     #footer-container div:first-child {
         grid-column: 1 / 3;
+    }
+
+    .loggor-footer {
+        margin-bottom: 0px;
     }
 }
