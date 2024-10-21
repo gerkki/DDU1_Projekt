@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     border-bottom: 1px solid #e5e5e5;
-    gap: 15px;
+    gap: 20px;
     padding: 10px 0px 10px 0px;
     position: fixed;
     top: 0;
@@ -26,7 +26,6 @@ header {
 #nav-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
 }
 
@@ -70,13 +69,13 @@ a {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.barky-knapp:hover {
-    background-color: #353535 !important;
+div .barky-knapp:hover {
+    background-color: #353535;
 }
 
 main {
     max-width: 1000px;
-    margin: 150px auto auto auto;
+    margin: 150px auto auto;
 }
 
 #sektion-1 {
@@ -89,16 +88,29 @@ h1 {
     margin: 0px;
 }
 
-.ingress {
-    padding: 15px 0px 23px 0px;
+.p-usp,
+.citat,
+.referens-roll,
+.prenumeration-ingress,
+.ingress,
+.procent-box {
     color: #999999;
+}
+
+.ingress {
+    padding: 0px 0px 15px 0px;
     font-size: 15px;
     font-weight: 400;
+}
+
+#forsta-stycket {
+    flex: 1;
 }
 
 .team-img {
     object-fit: contain;
     width: 100%;
+    flex: 1;
 }
 
 #sektion-2 {
@@ -114,7 +126,7 @@ h1 {
 }
 
 .loggor {
-    height: 25px;
+    max-height: 25px;
 }
 
 .sektion-3-4-5 {
@@ -140,14 +152,12 @@ h2 {
 }
 
 .p-usp {
-    color: #999999;
     font-size: 15px;
     margin-bottom: 0px;
 }
 
 .citat {
     font-size: 36px;
-    color: #999999;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 25px;
@@ -173,7 +183,6 @@ h2 {
 .referens-roll {
     font-size: 13.5px;
     margin-top: 2px;
-    color: #999999;
     font-weight: 320;
 }
 
@@ -200,9 +209,8 @@ h2 {
 }
 
 .prenumeration-ingress {
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 25px;
-    color: #999999;
     font-size: 15px;
 }
 
@@ -231,8 +239,8 @@ h2 {
     border-bottom: 1px solid #e5e5e5;
 }
 
-#sista-featuren {
-    border: none !important;
+div #sista-featuren {
+    border: none;
 }
 
 #sektion-7 {
@@ -288,7 +296,6 @@ h3 {
 .procent-box {
     flex: 1;
     border-right: 1px solid #e5e5e5;
-    color: #999999;
     font-size: 15px;
     padding: 0px 15px 0px 15px;
 }
@@ -345,6 +352,7 @@ footer {
 .rubrik-footer {
     font-weight: 550;
     margin-top: 0px;
+    margin-bottom: 8px;
 }
 
 #hamburger {
